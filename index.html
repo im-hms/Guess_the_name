@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head">
+        <h1>Word Thinker</h1>
+        <h2 id="h2"></h2>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <a class="close" id="closePopupButton">&times;</a>
+            <p id="p"></p>
+        </div>
+    </div>
+    <div class="dont">
+        <div class="content">
+            <div class="main">
+                <div id="container" class="container">
+                    
+                    
+                    <div class="main">
+                        <input id="checker" maxlength="1" type="text">
+                    </div>
+            
+                    <button id="btn" onclick="tell()" type="button">Think any word</button>
+                    <button id="btn2" onclick="match()" type="button">Check</button>
+                    <button id="btn3" onclick="show()" type="button">Show</button>
+                    <button id="refreshButton" type="button">Play Again</button>
+                </div>
+            
+                <div id="sp"></div>
+                
+            </div>
+        
+            <div class="already">
+                <h1>Already Type Words</h1>
+                <p id="p2"></p>
+            </div>
+        </div>
+    </div>
+    <div id="ans"></div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -128,3 +128,37 @@ span{
     text-align: center;
     height: 50vh;
 }
+
+@media screen and (max-width: 800px){
+    .content{
+        flex-direction: column;
+    }
+    .dont{
+        align-items: unset;
+    }
+}
+@media screen and (max-width: 550px){
+    span{
+        height: 7vh;
+        width: 42px;
+        font-size: 33px;
+        padding: 0;
+    }
+    .already h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 420px){
+    .head h1{
+        font-size: 30px;
+    }
+    #ans{
+        display: none;
+    }
+    button{
+        width: 70%;
+    }
+    .already{
+        height: 25vh;
+    }
+}
